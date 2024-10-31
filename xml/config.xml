@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HDPlayer>
+	<Skins>
+		<Skin  Name="SkinFile" Path="skin/hdskin.swf"/>
+	</Skins>
+	<DisplaySettings>
+		<Controls>
+			<Control Name="playerControls" Visible="true" AutoHide="true" JSApiEnabled="true"/>
+			<Control Name="sidebarControls" Visible="true" AutoHide="true">
+				<ControlItem Name="emailFriend" Enabled="true" />
+				<ControlItem Name="videoSize" Enabled="true" />
+				<ControlItem Name="embedVideo" Enabled="true" />
+				<ControlItem Name="videoTitle" Enabled="true"/>
+				<ControlItem Name="hdOnOff" Enabled="true" />
+				<ControlItem Name="ToolTip" Enabled="true" />
+			</Control>	
+		</Controls>
+		<Logo FilePath="logo.swf" URL="http://www.hitasoft.com"  Target="_blank" Opacity="50"/>
+		<Language XmlPath="xml/lang/en-EN.xml" default=""/>
+	</DisplaySettings>
+	<AdvertiseMents>
+		<PreRoll Type="image" DurationInSeconds="5" Enabled="true">	
+		</PreRoll>
+		<MidRoll  Enabled="true" Duration="5">
+		</MidRoll>
+		<PostRoll Type="image" DurationInSeconds="5" Enabled="true">	
+		</PostRoll>
+	</AdvertiseMents>
+	<ButtonControls>
+		<EmbedCode><![CDATA[<embed src="HDPlayer.swf" quality="high" bgcolor="#000000" width="560" height="310" name="HDPlayer" align="middle" allowScriptAccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />]]></EmbedCode>
+		<LinkCode><![CDATA[http://www.yourdomain.com/videofile.flv]]></LinkCode>
+		<Share EmailPHPPath="email.php"/>
+	</ButtonControls>
+	<VideoPlayBack DefaultVolume="10" HardwareFullScreenScaling="false"  StreamingType="http" RtmpServer="">
+		<Video>
+			<File HDVideoPath="http://www.hitasoft.com/trailer.flv" AutoPlay="false" VideoTitle="Planet 51 (2009) - Official Trailor" VideoDescription="Planet	51 is a galactic sized animated alien adventure comedy revolving around American astronaut Captain ..." TitleClickUrl="http://www.hitasoft.com/newhome/" VideoSource="" VideoQuality=""/>
+		</Video>
+	</VideoPlayBack>
+	<RelatedVideoList XmlPath="http://www.hd-player.net/files/hdplayer/xml/videolist.xml" Enabled="true"/>
+	<SocialNetworkShare>
+		<FaceBook APIUrl="http://www.facebook.com/sharer.php?" ShareContent=""/>
+		<Twitter APIUrl="http://twitter.com/share?url=" ShareContent=""/>
+		<Delicious APIUrl="http://delicious.com/post?url=" ShareContent="www.hitasoft.com/newhome"/>
+	</SocialNetworkShare>
+</HDPlayer>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RipeHDFLVPlayer>
+	<ToolTips>
+		<Tips>
+				<Control Name="playButton" Tip="Play Video"/>
+				<Control Name="pauseButton" Tip="Pause Video"/>
+				<Control Name="closeButton" Tip="Close"/>
+				<Control Name="nextButton" Tip="Next"/>
+				<Control Name="prevButton" Tip="Previous"/>
+				<Control Name="volumeButton" Tip="Volume"/>
+				<Control Name="goFullScreenButton" Tip="Launch Fullscreen"/>
+				<Control Name="exitFullScreenButton" Tip="Exit Fullscreen"/>
+				<Control Name="exitFullScreenButton" Tip="Exit Fullscreen"/>
+				<Control Name="embedButton" Tip="Send this video"/>
+	
+				<Control Name="shareButton" Tip="Social Networks"/>
+				<Control Name="sizeButton" Tip="Size Options"/>
+				
+				<Control Name="emailAFreind" Tip="Email a Friend"/>
+				<Control Name="getVideoLink" Tip="Get video link"/>
+				<Control Name="embedCode" Tip="Embed code"/>
+				<Control Name="moreSharesOption" Tip="More Share Options"/>
+		</Tips>
+	</ToolTips>
+	<Buttons>
+		<Button Name="WatchAgain" Value="Watch Again"/>
+		<Button Name="embedCopyButton" Value="COPY CODE"/>
+		<Button Name="embedCloseButton" Value="CLOSE"/>
+		<Button Name="friendsEmail" Value="FRIEND'S EMAIL"/>
+		<Button Name="yourEmail" Value="YOUR EMAIL"/>
+		<Button Name="mailMessage" Value="MESSAGE"/>
+		<Button Name="sendMessage" Value="SEND"/>
+		<Button Name="closeEmailMessage" Value="CLOSE"/>
+		<Button Name="linkLable" Value="Link"/>
+		<Button Name="linkCopy" Value="COPY"/>
+		<Button Name="linkClose" Value="CLOSE"/>
+		<Button Name="sharePost" Value="POST"/>
+		<Button Name="cancelPost" Value="CANCEL"/>
+	</Buttons>
+	<Actions>
+		<Action Name="onFaceBookClick" Value="Click post to log on to your facebook account and share this video in your profile."/>
+		<Action Name="onTwitterLoad" Value="Please wait. Creating the tiny link for twitting...."/>
+		<Action Name="onTwitterClick" Value="Click post to log on to your twitter account and tweet this video in your profile."/>
+		<Action Name="onDeleciousClick" Value="Click post to log on to your delecious account and share this video in your profile."/>
+		<Action Name="onNetworkIssue" Value="Oops! Server/Internet Problem. Please try agan."/>
+	</Actions>
+</RipeHDFLVPlayer>
